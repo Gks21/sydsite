@@ -151,6 +151,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.nav .book-btn {
+  color: var(--ivory);
+}
+
 .icon-btn,
 .book-btn,
 .btn {
