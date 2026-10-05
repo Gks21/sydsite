@@ -1,0 +1,32 @@
+export const serviceStories = [
+  {
+    id: "nails",
+    eyebrow: "Signature",
+    title: "Glamour nails",
+    href: "/nails",
+    image: "/images/nails-silk.jpg",
+    imageAlt: "Glazed glamorous nails on cream silk",
+    copy: "Nails are the heart of the lounge — shape, shine, and the kind of finish people notice across a table.",
+    cta: "Book a nail service",
+  },
+  {
+    id: "beauty",
+    eyebrow: "Also here",
+    title: "Beauty services",
+    href: "/services",
+    image: "/images/makeup-glow.jpg",
+    imageAlt: "Soft glam makeup in warm champagne light",
+    copy: "The lounge is bigger than nails. Beauty appointments and cosmetics live here too — still personal, still unhurried.",
+    cta: "Explore services",
+  },
+  {
+    id: "events",
+    eyebrow: "Together",
+    title: "Private events",
+    href: "/events",
+    image: "/images/events-table.jpg",
+    imageAlt: "Candlelit celebration table with champagne glasses",
+    copy: "Birthdays, bridal mornings, girls’ nights, and custom gatherings. Tell Sydney what you’re celebrating.",
+    cta: "Plan an event",
+  },
+] as const;
